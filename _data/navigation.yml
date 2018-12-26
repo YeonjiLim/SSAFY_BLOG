@@ -1,3 +1,11 @@
 main:
   - title: about us
     url: https://gitpitch.com/JeongJunHui/ssafy_d3_public
+    
+toc:
+  - title: 자기주도학습
+    subfolderitems:
+      - page: 주제1
+        url: /topic1.html
+      - page: 주제2
+        url: /topic2.html
