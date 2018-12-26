@@ -29,7 +29,7 @@ title: 자기 주도 학습
 ### SSAFY Start Camp 챗봇 퀘스트
 대전_3_임연지, https://github.com/YeonjiLim/SSAFY_181221/blob/master/Desktop/chatbot/chat.py
 
-#### I. 스펙(Specification)
+### I. 스펙(Specification)
 ***
 (1) START / RESTART
  - start 혹은 restart 키워드가 들어오면 덱을 새로 섞고 게임을 시작할 준비를 완료한다.
@@ -42,13 +42,13 @@ title: 자기 주도 학습
 (5) 덱
  - 카드 덱(한 덱 : 13장) 10세트를 랜덤으로 섞어서 리스트에 입력하고, 게임이 진행되는 동안 카드갯수를 보여준다.
  
-#### II. 회고(Retrospective)
+### II. 회고(Retrospective)
 ***
 * 서버의 연결이 원활하지 않아 게임 진행 테스트에 어려움이 있었다.
 * 특정 사용자만 구분하는 과정을 구현하는 부분에서 패킷을 분석하고 통신을 이해해야해서 처음에 헤맸었다.
 * 플레이어와의 덱 상태를 구분하기위해 전역변수를 사용하는 과정에서 시간이 지체되었다.
 
-#### III. 보완 계획(Feedback)
+### III. 보완 계획(Feedback)
 ***
 (1) @ace 태그 없이 챗봇과의 채팅 세션 유지
  - 사용자를 인식하는 기능을 응용해서 게임을 한번 시작하면 태그없이 채팅세션이 유지되게 하고싶다.
